@@ -5,17 +5,27 @@
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
+    "install": "^0.12.2",
     "jwt-decode": "^2.2.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "npm": "^6.9.0",
+    "peerjs": "^1.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-new-window": "^0.1.1",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
+    "react-toastify": "^5.2.1",
+    "recordrtc": "^5.5.4",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "simple-peer": "^9.3.0",
+    "socket.io-client": "^2.2.0",
+    "validator": "^11.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set HTTPS=true && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

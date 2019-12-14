@@ -1,0 +1,10 @@
+.video-call-container {
+    width:auto;
+    height:90vh;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+    bottom:0;
+}

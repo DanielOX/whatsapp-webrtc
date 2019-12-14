@@ -1,6 +1,17 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+
+
+// Create Friend Schema 
+
+
+
+
+
+
+
+
 // Create Schema
 const UserSchema = new Schema({
   name: {

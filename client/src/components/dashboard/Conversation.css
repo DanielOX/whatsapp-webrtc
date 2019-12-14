@@ -1,0 +1,16 @@
+.conversation{
+    display: block;
+    padding:24px;
+}
+.conversation > div > button {
+    text-transform:initial;
+}
+.conversation div {
+    clear:both;
+    margin:14px;
+}
+.me,.other {
+
+    margin:5.5px 0px 5.5px 0px;
+
+}
