@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const passport = require("passport");
-
+const path = require('paths')
 // Route Imports
 const users = require("./routes/api/users");
 const conversations = require('./routes/api/conversations');
@@ -22,7 +22,7 @@ const SocketController = require('./controller/SocketController')
 
 const app = express();
 
-
+app.use(express.static(path.join(__dirname,'/client/build')))
 
 // Bodyparser middleware
 app.use(
